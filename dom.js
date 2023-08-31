@@ -7,8 +7,9 @@ if( click.style.backgroundColor!=='red')
 {
  click.style.color='white';
  click.style.backgroundColor='red';
+ click.style.transiotion="all 2s";
 }
 else{
     click.style.color='green';
 }};
-click.addEventListener('click',clicks);
+click.addEventListener('mouseover',clicks);
